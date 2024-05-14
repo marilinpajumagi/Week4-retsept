@@ -1,0 +1,101 @@
+body {
+    background-color: lightblue;
+    display: grid;
+}
+
+.kuklid {
+    color: darkred;
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    position: relative;
+    animation: kuklid;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes kuklid {
+    0% {top: -250px;}
+    100% {top: 10px;}
+}
+
+.image {
+    position: relative;
+    text-align: center;
+    animation: pilt;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes pilt {
+    0% {right: -1000px;}
+    85% {right: 25px}
+    100% {right: 0;}
+}
+
+.nimekiri {
+    text-align: left;
+    margin: auto;
+}
+
+.maintable {
+    color: blue;
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    background-color: lightcyan;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    animation: maintable;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes maintable {
+    0% {left: -1000px;}
+    85% {left: 25px}
+    100% {left: 0;}
+}
+
+.text {
+    display: grid;
+    text-align: center;
+}
+
+.notmaintable {
+    color: blue;
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    background-color: lightcyan;
+    margin: auto;
+}
+
+.link {
+    position: relative;
+    text-align: center;
+    font-size:large;
+    text-transform: uppercase;
+    animation: button;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes button {
+    0% {right: -1000px;}
+    85% {right: 25px}
+    100% {right: 0;}  
+}
+
+.footer {
+    position: relative;
+    color: blue;
+    text-align: center;
+    animation: hermonie;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hermonie {
+    0% {bottom: -1000px;}
+    85% {bottom: 25px}
+    100% {bottom: 0;}  
+}
